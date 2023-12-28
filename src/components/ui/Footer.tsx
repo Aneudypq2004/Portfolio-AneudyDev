@@ -1,7 +1,5 @@
 
-import { ArrowUP, GitHubIcon, LinkedinIcon, TelegramIcon } from '../../helper/Icons';
-import { HandleSmoothScroll } from '../../helper/ScrollIntoView';
-
+import { GitHubIcon, LinkedinIcon, TelegramIcon } from '../../helper/Icons';
 
 function Footer() {
 
