@@ -1,0 +1,44 @@
+{
+    "translation": {
+        "header": {
+            "Home": "Home",
+            "Project": "Projects",
+            "Contact": "Contact",
+            "Summary": "Resume"
+        },
+        "Job": "React Developer",
+        "Description": " Lorem  ipsum dolor sit amet, consectetur adipisicing elit.  Nobis nisi labore cupiditate nostrum optio, aperiam impedit  facere iusto animi, provident placeat, voluptatibus consectetur molestiae.  Ipsa voluptate mollitia delectus corporis quisquam",
+        "cv": "Download CV",
+
+        "Projects": {
+            "RentMovies": "Lorem ipsum dolor sit amet, consectetur adipisicing elit"
+        },
+
+        "Home": {
+            "About": "About Me",
+            "Idoing": "What I'm Doing"
+        },
+
+        "Resume" : {
+            "title" : ""
+        },
+
+
+        "Contact": {
+            "contact": "Contact Form",
+            "send": "Send message",
+            "Mreceived": "Message Received",
+            "fullname": "Full name",
+            "email": "Email adress",
+            "message": "Your message",
+            "Received": "Received",
+
+            "validate": {
+                "all": "All field are required",
+                "message": "Message is very short",
+                "email": "The email is invalid"
+
+            }
+        }
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "translation": {
+        "header" : {
+            "Home" : "Inicio",
+            "Projects" : "Proyectos",
+            "Contact" : "Contacto"
+        },
+
+        "Job" : "Desarrollador React",
+
+        "Contact": {
+            "contact" : "Formulario de contacto",
+            "send": "Enviar mensaje",
+            "received" : "Mensaje recibido",
+            "fullname": "Nombre Complemto",
+            "email": "Correo Electronico",
+            "message": "Tu mensaje",
+            "Received": "Recibido"
+        
+        }
+    }
+}
