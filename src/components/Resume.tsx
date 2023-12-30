@@ -25,9 +25,9 @@ export default function Resume() {
 
           <Title title="Education" />
 
-          <div className='text-lg bg-main p-4  border-b  rounded border-gray-300 mb-4'>
+          <div className='text-lg bg-main p-4  rounded border  border-blue mb-4'>
 
-            <h4 className=''>Tec. Software Developer  2023 - <span className='font-bold '>TODAY
+            <h4 className=''>Tec. Software Development  2023 - <span className='font-bold '>TODAY
             </span>  </h4>
             <p className='text-blue'>Instituto Tecnológico de Las Américas - ITLA</p>
 
@@ -35,7 +35,7 @@ export default function Resume() {
 
           {/* LOYOLA  */}
 
-          <div className='text-lg bg-main p-4  border-b rounded  border-gray-300 mb-4'>
+          <div className='text-lg bg-main p-4 rounded border  border-blue mb-4'>
 
             <h4 className=''>High School <span className='font-bold '> 2018 - 2022
             </span>  </h4>

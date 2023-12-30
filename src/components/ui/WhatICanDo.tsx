@@ -5,7 +5,7 @@ function WhatICanDo() {
     <div>
       <Title title="What I can do?" />
 
-      <div className='bg-main p-4 text-white mb-4  border-b border-white grid gap-2 rounded'>
+      <div className='bg-main p-4 text-white  border  border-blue mb-4 grid gap-2 rounded'>
 
         <h4 className="text-blue uppercase font-bold text-lg">Frontend</h4>
 
@@ -13,7 +13,7 @@ function WhatICanDo() {
 
           <li>Develop web applications  with React using typescript</li>
 
-          <li>Styles with CCS or Tailwindcss</li>
+          <li>Styles with CSS or Tailwindcss</li>
 
           <li>Responsive design</li>
 
@@ -23,7 +23,7 @@ function WhatICanDo() {
 
       </div>
 
-      <div className='bg-main p-4  text-white mb-4  border-b border-white grid gap-2 rounded'>
+      <div className='bg-main p-4  text-white mb-4 border  border-blue grid gap-2 rounded'>
 
         <h4 className="text-blue uppercase font-bold text-lg" >Backend</h4>
 

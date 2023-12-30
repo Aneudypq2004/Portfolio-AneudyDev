@@ -21,15 +21,16 @@ function App() {
     <>
       <Header />
 
-      <main className='container mx-auto p-4'>
 
-        {/* Home  */}
+      {/* Home  */}
 
-        <section id='home' className='h-screen grid grid-cols-1 md:grid-cols-2  gap-4 content-center '>
+      <section id='home' className='h-screen grid grid-cols-1 md:grid-cols-2 p-4  gap-4 content-center bg-image '>
 
-          <Home />
+        <Home />
 
-        </section>
+      </section>
+
+      <main className='container mx-auto p-4 '>
 
         {/* Resume */}
 

@@ -6,12 +6,12 @@
             "Contact": "Contact",
             "Summary": "Resume"
         },
-        "Job": "React Developer",
-        "Description": " Lorem  ipsum dolor sit amet, consectetur adipisicing elit.  Nobis nisi labore cupiditate nostrum optio, aperiam impedit  facere iusto animi, provident placeat, voluptatibus consectetur molestiae.  Ipsa voluptate mollitia delectus corporis quisquam",
+        "Job": ".NET Developer",
+        "Description": "Hello! I am a passionate software developer with a primary focus on the .NET ecosystem in the backend part and React in the front. My experience focuses on developing applications using technologies such as ASP.NET CORE with C#,  React with typescript, So now you will see my projects",
         "cv": "Download CV",
 
         "Projects": {
-            "RentMovies": "Lorem ipsum dolor sit amet, consectetur adipisicing elit"
+            "RentMovies": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, Lorem ipsum dolor sit amet, consectetur adipisicing elit"
         },
 
         "Home": {

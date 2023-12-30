@@ -1,4 +1,5 @@
-import IconMenu from '../../assets/icons-menu.svg';
+import IconMenu from '/icon/menu.svg';
+import { InView } from 'react-intersection-observer';
 import { useTranslation } from "react-i18next";
 
 import { HandleSmoothScroll } from '../../helper/ScrollIntoView'

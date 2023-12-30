@@ -1,6 +1,7 @@
 import React, { ChangeEvent, useState } from "react"
 import { SendIcon } from "../helper/Icons";
 import { toast } from "react-toastify";
+import sendEmail from "../helper/SendEmail";
 
 import { useTranslation } from "react-i18next";
 
@@ -33,7 +34,9 @@ function Contact() {
       return toast.error(t("Contact.validate.all"));
     }
 
-    toast.success(t("Contact.Mreceived"));
+    sendEmail({email, msg: message});
+
+    toast.error("Not implemented");
 
     setSend(true);
   }
@@ -64,7 +67,7 @@ function Contact() {
 
         <textarea
           className="p-4 col-span-2 rounded bg-transparent border h-[10rem] border-gray-300 
-        w-full outline-none  focus:border-blue"
+          w-full outline-none  focus:border-blue"
           value={message}
           onChange={(e: ChangeEvent<HTMLTextAreaElement>) => setMessage(e.target.value)}
           name="message" placeholder={t("Contact.message")} >

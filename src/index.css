@@ -65,3 +65,10 @@
     background-color: #00DAFF;
 }
 
+.bg-image{
+    background-image: linear-gradient(to right, rgba(0, 0, 0, .86) 70%, rgba(0, 0, 0, .90) 10%), url(/bg.jpg);
+    background-position: center center, top center;
+    background-repeat: no-repeat no-repeat;
+    background-size: cover, cover;
+
+}

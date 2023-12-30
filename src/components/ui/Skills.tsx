@@ -10,12 +10,12 @@ export default function Skills() {
             {tecnologies.map(tecnology => (
 
                 <div key={tecnology + "12031"}
-                    className='group flex  justify-between  flex-col'>
-{/* 
-                    <p className='text-center opacity-0 top-16 whitespace-nowrap absolute max-w-max z-[999]  capitalize  group-hover:opacity-100 
-                        transition-opacity duration-500 ease-in-out'>{tecnology}</p> */}
+                    className='group  relative'>
 
-                    <img src={`/src/assets/icon/tecnologies/${tecnology}.svg`}
+                    <p className='text-center opacity-0 -top-16 whitespace-nowrap fixed max-w-max z-[999]  capitalize  group-hover:opacity-100 
+                        transition-opacity duration-500 ease-in-out'>{tecnology}</p>
+
+                    <img src={`/icon/tecnologies/${tecnology}.svg`}
                         width={60}
                         className="min-w-[50px] max-w-[60px]"
                         height={60}
