@@ -1,6 +1,6 @@
 
 const tecnologies: string[] = ["react", "tailwind CSS", "typescript", "c", "git",
-    "Microsoft sql server", ".net core", "HTML", "CSS",]
+    "Microsoft sql server", "netcore", "HTML", "CSS",]
 
 export default function Skills() {
     return (
