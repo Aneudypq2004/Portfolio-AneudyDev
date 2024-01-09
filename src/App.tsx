@@ -1,9 +1,9 @@
 import { HandleSmoothScroll } from './helper/ScrollIntoView';
-
+import { SendIcon } from "./helper/Icons";
 
 import Header from './components/ui/Header';
 import { useTranslation } from 'react-i18next';
-import Contact from './components/Contact';
+//import Contact from './components/Contact';
 
 import Projects from './components/Projects';
 import Footer from './components/ui/Footer';
@@ -55,8 +55,14 @@ function App() {
 
         <Title title={t("Contact.contact")} />
 
-        <section id='contact' className='w-full md:w-11/12 mx-auto mb-4'>
-          <Contact />
+        <section id='contact' className='w-full flex justify-center md:w-11/12 mx-auto mb-4'>
+
+        <a
+        href='mailto:dluisaneudy82@gmail.com?subject=Quiero decirte algo'
+        className={`mt-4 self-end  px-8 py-4 rounded-sm text-black text-lg 
+        flex items-center  gap-4 max-w-max bg-blue`}
+        type="submit"> <SendIcon /> Tell me something by email</a>
+
         </section>
 
 

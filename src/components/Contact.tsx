@@ -1,7 +1,6 @@
 import React, { ChangeEvent, useState } from "react"
 import { SendIcon } from "../helper/Icons";
 import { toast } from "react-toastify";
-import sendEmail from "../helper/SendEmail";
 
 import { useTranslation } from "react-i18next";
 
@@ -33,8 +32,6 @@ function Contact() {
     if (!regex.test(email)) {
       return toast.error(t("Contact.validate.all"));
     }
-
-    sendEmail({email, msg: message});
 
     toast.error("Not implemented");
 
