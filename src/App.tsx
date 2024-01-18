@@ -34,7 +34,7 @@ function App() {
 
         {/* Resume */}
 
-        <Title title='Resume' />
+        <Title title={t("Resume.Title")} />
 
         <section id='summary' className=' bg-second container mx-auto p-2'>
           <Resume />
@@ -42,7 +42,7 @@ function App() {
 
         {/* Projects  */}
 
-        <Title title='Projects' />
+        <Title title={t("Contact.contact")} />
 
         <section id='projects' className='min-h-screen'>
 
@@ -61,7 +61,7 @@ function App() {
         href='mailto:dluisaneudy82@gmail.com?subject=Quiero decirte algo'
         className={`mt-4 self-end  px-8 py-4 rounded-sm text-black text-lg 
         flex items-center  gap-4 max-w-max bg-blue`}
-        type="submit"> <SendIcon /> Tell me something by email</a>
+        type="submit"> <SendIcon /> {t("Contact.Title")}</a>
 
         </section>
 

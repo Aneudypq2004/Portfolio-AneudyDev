@@ -1,22 +1,70 @@
 {
     "translation": {
-        "header" : {
-            "Home" : "Inicio",
-            "Projects" : "Proyectos",
-            "Contact" : "Contacto"
+
+      "header": {
+        "Home": "Inicio",
+        "Project": "Proyectos",
+        "Contact": "Contacto",
+        "Summary": "Resumen"
+      },
+      "Job": ".NET Developer",
+
+      "Description": "¡Hola! Soy un apasionado desarrollador de software con un enfoque principal en el ecosistema .NET en la parte del backend y React en el frontend. Mi experiencia se centra en el desarrollo de aplicaciones utilizando tecnologías como ASP.NET CORE con C#, React con TypeScript, así que ahora verás mis proyectos.",
+      "cv": "Descargar CV",
+
+      "Projects": {
+        "RentMovies": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, Lorem ipsum dolor sit amet, consectetur adipisicing elit"
+      },
+
+      "Home": {
+        "About": "Acerca de Mí",
+        "Idoing": "Lo que Estoy Haciendo"
+      },
+
+      "Resume" : {
+
+        "Title" : "Resumen",
+        "SoftwareSkills" : "Habilidades",
+
+        "Education" : {
+            "Title": "Educación",
+            "Career" : "Desarrollo De Software",
+            "Institute" : "Instituto Tecnológico de Las Américas - ITLA"
         },
 
-        "Job" : "Desarrollador React",
+        "WhatICanDo" : {
+            "Title": "¿Que puedo hacer?",
 
-        "Contact": {
-            "contact" : "Formulario de contacto",
-            "send": "Enviar mensaje",
-            "received" : "Mensaje recibido",
-            "fullname": "Nombre Complemto",
-            "email": "Correo Electronico",
-            "message": "Tu mensaje",
-            "Received": "Recibido"
-        
+            "Frontend" : {
+                "Develop" : "React + TypeScript",
+                "Styles": "Estilos con Css o TailwindCss",
+                "Responsive": "Diseño web adaptable",
+                "Zustand": "Zustand para manejar el estado global"
+            },
+            "Backend": {
+                "Develop" : "Desarrollo de Web Apis con ASP NET CORE"
+            }
         }
+
+      },
+
+      "Contact": {
+        "Title": "Dime algo!",
+
+        "contact": "Contacto",
+        "send": "Enviar Mensaje",
+        "Mreceived": "Mensaje Recibido",
+        "fullname": "Nombre Completo",
+        "email": "Correo Electrónico",
+        "message": "Tu Mensaje",
+        "Received": "Recibido",
+
+        "validate": {
+          "all": "Todos los campos son obligatorios",
+          "message": "El mensaje es muy corto",
+          "email": "El correo electrónico no es válido"
+        }
+      }
     }
-}
+  }
+  

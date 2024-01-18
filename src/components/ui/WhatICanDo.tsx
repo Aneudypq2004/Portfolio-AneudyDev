@@ -1,9 +1,13 @@
 import Title from "./Title"
+import { useTranslation } from 'react-i18next';
 
 function WhatICanDo() {
+
+  const { t } = useTranslation();
+
   return (
     <div>
-      <Title title="What I can do?" />
+      <Title title={t("Resume.WhatICanDo.Title")} />
 
       <div className='bg-main p-4 text-white  border  border-blue mb-4 grid gap-2 rounded'>
 
@@ -11,13 +15,13 @@ function WhatICanDo() {
 
         <ul className=" list-disc ml-4">
 
-          <li>Develop web applications  with React using typescript</li>
+          <li>{t("Resume.WhatICanDo.Frontend.Develop")}</li>
 
-          <li>Styles with CSS or Tailwindcss</li>
+          <li>{t("Resume.WhatICanDo.Frontend.Styles")}</li>
 
-          <li>Responsive design</li>
+          <li>{t("Resume.WhatICanDo.Frontend.Responsive")}</li>
 
-          <li>Zustand to handle the global state</li>
+          <li>{t("Resume.WhatICanDo.Frontend.Zustand")}</li>
 
         </ul>
 
@@ -29,11 +33,11 @@ function WhatICanDo() {
 
         <ul className=" list-disc ml-4" >
 
-          <li>Develop web Apis with ASP NET Core</li>
+          <li>{t("Resume.WhatICanDo.Backend.Develop")}</li>
 
           <li>Microsoft SQL Server </li>
 
-          <li>Onion architecture</li>
+          <li>Clean architecture</li>
 
           <li>Entity framework</li>
 

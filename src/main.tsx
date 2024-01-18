@@ -19,9 +19,9 @@ i18n.
       es: spanishContent,
     },
 
-    lng: "en",
+    lng: "es",
 
-    fallbackLng: "en",
+    fallbackLng: "es",
 
     interpolation: {
       escapeValue: false
