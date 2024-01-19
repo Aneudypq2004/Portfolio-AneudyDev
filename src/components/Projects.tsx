@@ -15,8 +15,6 @@ interface Iproject {
 
 export default function Projects() {
 
-  const { t } = useTranslation();
-
   // ALL PROJECTS
 
   const projects: Iproject[] = [
