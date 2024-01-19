@@ -42,7 +42,7 @@ function App() {
 
         {/* Projects  */}
 
-        <Title title={t("Contact.contact")} />
+        <Title title="Proyectos"/>
 
         <section id='projects' className='min-h-screen'>
 
