@@ -22,15 +22,24 @@ export default function Projects() {
   const projects: Iproject[] = [
 
     {
-      name: "LastFinance", description: t("Projects.RentMovies"),
+      name: "LastFinance", description: "Proyecto hecho con React + typescript para mejorar las habilidades del frontend",
       image: "project1",
       githubPath: "https://github.com/Aneudypq2004/LastFinance",
-      livePath: "https://lastfinance.netlify.app/wallet",
-      tecnologies: ["React", "Tailwind css", "Cripto Compare Api", "ChartJs"]
+      livePath: "https://lastfinance.netlify.app",
+      tecnologies: ["React + Typescript", "Tailwind css", "Cripto Compare Api", "ChartJs"]
     },
 
     {
-      name: "RentMovies", description: t("Projects.RentMovies"),
+      name: "Rest API – Sistema de agenda de citas medicas",
+       description: "El proyecto fue realizado con .NET 6 , aplicando buenas prácticas respetando los principios solid, utilicé la arquitectura clean para dividir la aplicación por responsabilidad. Y algunos patrones de diseño que facilitan la escalabilidad de la aplicación como el patrón CQRS.   ",
+      image: "project3",
+      githubPath: "https://github.com/Aneudypq2004/Rest-API-Sistema-de-agenda-de-citas-medicas",
+      demo: false,
+      tecnologies: ["ASP NET CORE", "Entity Framework", "Arquitectura Clean", "Patrón Mediator",]
+    },
+
+    {
+      name: "RentMovies", description: "Proyecto para alquilar películas , similar a amazon, se utiliza una api externa para los datos de las películas",
       image: "project2",
       demo: false,
       githubPath: "https://github.com/Aneudypq2004/RentMovies",
@@ -38,15 +47,7 @@ export default function Projects() {
     },
 
     {
-      name: "RentMovies API", description: t("Projects.RentMovies"),
-      image: "project3",
-      githubPath: "https://github.com/Aneudypq2004/RENTMOVIES-API_REST",
-      demo: false,
-      tecnologies: ["ASP NET CORE", "Entity Framework", "N-Layer", "Sql server",]
-    },
-
-    {
-      name: "WebApis Company", description: "CRUD Company, Employee, Position made with Onion arquitecture, repository pattern ,entity framework",
+      name: "WebApis Company", description: "Api para manejar los empleados de la compañia",
       image: "project4",
       demo: false,
       githubPath: "https://github.com/Aneudypq2004/OnionWebApi",
@@ -86,7 +87,7 @@ export default function Projects() {
 
             <figcaption className="text-center text-2xl my-4 text-blue ">{project.name}</figcaption>
 
-            <p className="text-gray-300">{project.description}</p>
+            <p className="text-gray-300 text-justify">{project.description}</p>
 
             {/* Project tecnologies */}
 
